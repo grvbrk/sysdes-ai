@@ -1,23 +1,11 @@
-import { Excalidraw } from "@excalidraw/excalidraw";
-import { useRef } from "react";
+import { Excalidraw, WelcomeScreen } from "@excalidraw/excalidraw";
 
 export default function App() {
-  const excalidrawRef = useRef(null);
-
   return (
-    <div>
-      <Excalidraw
-        ref={excalidrawRef}
-        theme="dark"
-        // initialElements={[
-        //   {
-        //     type: "rectangle",
-        //     id: "rect-1",
-        //     width: 186.47265625,
-        //     height: 141.9765625,
-        //   },
-        // ]}
-      />
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <Excalidraw>
+        <WelcomeScreen />
+      </Excalidraw>
     </div>
   );
 }
