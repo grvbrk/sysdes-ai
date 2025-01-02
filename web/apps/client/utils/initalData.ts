@@ -1,0 +1,35 @@
+import { ExcalidrawInitialDataState } from "@excalidraw/excalidraw/types/types";
+
+export const initialData: ExcalidrawInitialDataState = {
+  elements: [
+    {
+      type: "rectangle",
+      id: "1",
+      x: 0,
+      y: 0,
+      strokeColor: "#000000",
+      backgroundColor: "transparent",
+      fillStyle: "hachure",
+      strokeWidth: 1,
+      strokeStyle: "solid",
+      roundness: null,
+      roughness: 1,
+      opacity: 100,
+      width: 160,
+      height: 80,
+      angle: 0,
+      seed: 1968410350,
+      version: 141,
+      versionNonce: 361174001,
+      isDeleted: false,
+      groupIds: [],
+      frameId: null,
+      boundElements: null,
+      updated: 1678200214810,
+      link: null,
+      locked: false,
+    },
+  ],
+  appState: { zenModeEnabled: false, viewBackgroundColor: "#ffffff" },
+  scrollToContent: true,
+};
